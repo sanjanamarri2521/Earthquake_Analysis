@@ -107,9 +107,26 @@ Interactive Folium map visualizing epicenters alongside tectonic plate boundarie
 
 ---
 
-## 💻 Environment Setup
+## 📦 Repository Contents
 
-To run this project, install all dependencies from the `requirements.txt` file:
+| File                          | Description                                  |
+|-------------------------------|----------------------------------------------|
+| `Earthquake Analysis.ipynb`   | Main Jupyter notebook with all analysis      |
+| `earthquakes_2023_global.csv` | Earthquake dataset for 2023                  |
+| `PB2002_plates.json`          | GeoJSON file with tectonic plate data        |
+| `seismic_map_with_plates.html`| Interactive map with quakes + plates         |
+| `README.md`                   | Project documentation (this file)            |
+| `requirements.txt`            | List of dependencies for the environment     |
 
-```bash
-pip install -r requirements.txt
+---
+
+## 👩‍💻 Author
+
+**Sanjana Marri**  
+🔗 GitHub: [@sanjanamarri2521](https://github.com/sanjanamarri2521)
+
+---
+
+## 📝 License
+
+This project is open source under the [MIT License](LICENSE).
