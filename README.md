@@ -1,15 +1,15 @@
-# 🌍 Global Earthquake Analysis – 2023
+# Global Earthquake Analysis – 2023
 
-This project presents a detailed data analysis of global earthquake activity for the year 2023 using data sourced from Kaggle. The analysis explores patterns in earthquake **magnitude, depth, time distribution, geography**, and **alignment with tectonic plates**, using both static and interactive visualizations.
+This project presents a detailed data analysis of global earthquake activity for the year 2023 using data sourced from Kaggle. The analysis explores patterns in earthquake magnitude, depth, time distribution, geography, and alignment with tectonic plates, using both static and interactive visualizations.
 
 ---
 
-## 📁 Dataset
+## Dataset
 
-- **Source**: [Earthquakes 2023 Global – Kaggle](https://www.kaggle.com/datasets/mustafakeser4/earthquakes-2023-global)
-- **File**: `earthquakes_2023_global.csv`
+- Source: [Earthquakes 2023 Global – Kaggle](https://www.kaggle.com/datasets/mustafakeser4/earthquakes-2023-global)
+- File: `earthquakes_2023_global.csv`
 
-### 🔍 Column Descriptions
+### Column Descriptions
 
 | Column Name         | Description                                                                 |
 |---------------------|-----------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ This project presents a detailed data analysis of global earthquake activity for
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Python (Jupyter Notebook)
 - Pandas, NumPy
@@ -48,11 +48,11 @@ This project presents a detailed data analysis of global earthquake activity for
 
 ---
 
-## 📊 Visualizations & Analysis
+## Visualizations & Analysis
 
 ### 1. Magnitude Distribution
 Histogram and KDE plot showing the frequency of different earthquake magnitudes.
-- **Insight**: Most earthquakes in 2023 were Minor to Light.
+- Insight: Most earthquakes in 2023 were Minor to Light.
   
 ![Magnitude Distribution](images/mag_dist.png)
 
@@ -60,7 +60,7 @@ Histogram and KDE plot showing the frequency of different earthquake magnitudes.
 
 ### 2. Top 10 Earthquake Regions
 Horizontal bar chart identifying the most seismically active regions.
-- **Insight**: Alaska, Indonesia, and the Philippines were among the most active.
+- Insight: Alaska, Indonesia, and the Philippines were among the most active.
 
 ![Top Regions](images/top_10_regions.png)
 
@@ -68,7 +68,7 @@ Horizontal bar chart identifying the most seismically active regions.
 
 ### 3. Seismic Event Types (Pie Chart)
 Pie chart showing the proportion of events by magnitude category.
-- **Insight**: Most events were in the Minor to Light range.
+- Insight: Most events were in the Minor to Light range.
 
 ![Seismic Types Pie](images/seismic_types.png)
 
@@ -76,7 +76,7 @@ Pie chart showing the proportion of events by magnitude category.
 
 ### 4. RMS Amplitude Spectrum Distribution
 Histogram showing the spread of earthquake signal strength (RMS).
-- **Insight**: Most earthquakes had low to moderate RMS values.
+- Insight: Most earthquakes had low to moderate RMS values.
 
 ![RMS Distribution](images/rms.png)
 
@@ -84,7 +84,7 @@ Histogram showing the spread of earthquake signal strength (RMS).
 
 ### 5. Earthquakes per Month
 Bar chart showing number of earthquakes per month in 2023.
-- **Insight**: Earthquakes occurred consistently, with small peaks in certain months.
+- Insight: Earthquakes occurred consistently, with small peaks in certain months.
 
 ![Monthly Quakes](images/eq_per_month.png)
 
@@ -92,22 +92,22 @@ Bar chart showing number of earthquakes per month in 2023.
 
 ### 6. Earthquakes + Tectonic Plates Map (Interactive)
 Interactive Folium map visualizing epicenters alongside tectonic plate boundaries.
-- **Insight**: Most earthquakes align along tectonic plate boundaries.
+- Insight: Most earthquakes align along tectonic plate boundaries.
 
-> 📂 File: `seismic_map_with_plates.html`  
+File: `seismic_map_with_plates.html`  
 ![Map Preview](images/map.png)
 
 ---
 
-## 📌 Conclusions
+## Conclusions
 
-- Earthquake activity in 2023 was dominated by **low to moderate magnitude events**.
-- **Tectonic boundaries** strongly influence earthquake locations.
-- **Alaska, Indonesia**, and nearby regions are global seismic hotspots.
+- Earthquake activity in 2023 was dominated by low to moderate magnitude events.
+- Tectonic boundaries strongly influence earthquake locations.
+- Alaska, Indonesia, and nearby regions are global seismic hotspots.
 
 ---
 
-## 📦 Repository Contents
+## Repository Contents
 
 | File                          | Description                                  |
 |-------------------------------|----------------------------------------------|
@@ -120,13 +120,13 @@ Interactive Folium map visualizing epicenters alongside tectonic plate boundarie
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Sanjana Marri**  
-🔗 GitHub: [@sanjanamarri2521](https://github.com/sanjanamarri2521)
+GitHub: [@sanjanamarri2521](https://github.com/sanjanamarri2521)
 
 ---
 
-## 📝 License
+## License
 
-This project is open source under the [MIT License](LICENSE).
+This project is open source under the MIT License.
